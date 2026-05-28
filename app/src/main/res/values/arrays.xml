@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="particle_count_entries">
+        <item>少 (60)</item>
+        <item>中等 (120)</item>
+        <item>多 (200)</item>
+        <item>超多 (300)</item>
+    </string-array>
+    <string-array name="particle_count_values">
+        <item>60</item>
+        <item>120</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+
+    <string-array name="color_scheme_entries">
+        <item>科技蓝</item>
+        <item>极光绿</item>
+        <item>梦幻紫</item>
+        <item>烈焰红</item>
+        <item>星空金</item>
+    </string-array>
+    <string-array name="color_scheme_values">
+        <item>blue</item>
+        <item>green</item>
+        <item>purple</item>
+        <item>red</item>
+        <item>gold</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>慢速</item>
+        <item>正常</item>
+        <item>快速</item>
+    </string-array>
+    <string-array name="speed_values">
+        <item>0.5</item>
+        <item>1.0</item>
+        <item>2.0</item>
+    </string-array>
+</resources>

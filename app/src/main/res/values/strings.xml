@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">粒子动态壁纸</string>
+    <string name="wallpaper_name">粒子动态壁纸</string>
+    <string name="wallpaper_description">炫酷的粒子流动动态壁纸，支持自定义颜色和粒子数量</string>
+    <string name="settings_title">壁纸设置</string>
+</resources>

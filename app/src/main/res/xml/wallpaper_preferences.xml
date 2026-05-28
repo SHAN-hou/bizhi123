@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="particle_count"
+        android:title="粒子数量"
+        android:summary="选择屏幕上显示的粒子数量"
+        android:entries="@array/particle_count_entries"
+        android:entryValues="@array/particle_count_values"
+        android:defaultValue="120" />
+
+    <ListPreference
+        android:key="color_scheme"
+        android:title="颜色方案"
+        android:summary="选择粒子的颜色主题"
+        android:entries="@array/color_scheme_entries"
+        android:entryValues="@array/color_scheme_values"
+        android:defaultValue="blue" />
+
+    <ListPreference
+        android:key="particle_speed"
+        android:title="运动速度"
+        android:summary="调整粒子的移动速度"
+        android:entries="@array/speed_entries"
+        android:entryValues="@array/speed_values"
+        android:defaultValue="1.0" />
+
+    <SwitchPreference
+        android:key="connect_lines"
+        android:title="连接线"
+        android:summary="在距离较近的粒子之间绘制连接线"
+        android:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="touch_interact"
+        android:title="触摸互动"
+        android:summary="触摸屏幕时粒子会向触摸点聚集"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
